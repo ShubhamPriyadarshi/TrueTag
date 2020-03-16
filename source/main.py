@@ -11,7 +11,7 @@ if __name__ == '__main__':
     sys.path.append("path/foo/bar/")
 
     parser = argparse.ArgumentParser(
-        usage=" -T to train ['--nocleaning & '--noidf'], -P to predict ['number_of_tags' 'url'], -h for help")
+        usage=" -T to train, -P to predict ['number_of_tags' 'url'], -h for help")
     parser.add_argument(
         '--debug',
         action='store_true',
